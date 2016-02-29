@@ -1,0 +1,21 @@
+[info]
+title=HTML Beautify
+desc=Formats/indents HTML code. Uses engine from HTMLBeautify plugin for Sublime Text.
+type=cudatext-plugin
+subdir=cuda_html_beautify
+
+[item1]
+section=commands
+caption=HTML Beautify\Format
+method=run
+lexers=HTML,HTML_
+
+[item2]
+section=commands
+caption=HTML Beautify\Configure
+method=config_global
+
+[item3]
+section=commands
+caption=HTML Beautify\Configure (local)
+method=config_local
